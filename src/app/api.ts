@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class ApiService {
   // ANTES: private apiUrl = 'http://localhost:3000/api';
-private apiUrl = 'https://clinica-backend-mvp.onrender.com'; // <--- Pon tu URL de Render real aquí
+private apiUrl = 'https://clinica-backend-mvp.onrender.com/api'; // <--- Pon tu URL de Render real aquí
 
   constructor(private http: HttpClient) { }
 
